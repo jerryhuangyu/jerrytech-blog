@@ -10,7 +10,7 @@ export default defineConfig({
     logo: "/jerry-tech-logo.svg",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "About Me", link: "/about-me" },
     ],
     sidebar: [
       {
@@ -33,8 +33,6 @@ export default defineConfig({
         ],
       },
     ],
-    socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/jerryhuangyu" }],
   },
 });
