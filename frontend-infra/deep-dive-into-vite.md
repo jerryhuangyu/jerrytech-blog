@@ -19,10 +19,10 @@ Vite 主要由兩個組件構成：
 
 傳統的建構工具（如 Webpack）旨在將專案的原始碼與相依套件打包在一起。儘管在寫程式時使用 import 和 export，但在輸出時可能已被 Babel 或 Webpack 轉換成 CommonJS 或其他形式。這也是 Webpack 等打包工具速度較慢的原因：它們需要靜態分析專案中所有文件及依賴，然後根據這些資訊進行打包，隨著檔案增多，所需時間自然也會增加。
 
-![bundle based dev server](./image/bundle-based-dev-server.png)
+![bundle based dev server](/image/bundle-based-dev-server.png)
 
 ## Vite 的打包原理與性能挑戰
 
 Vite 利用瀏覽器原生支援的 ESM，避開了傳統打包過程，使原始碼模組在開發階段由瀏覽器直接處理載入，提升了開發時的效能。然而[在生產環境中，Vite 仍然採用傳統打包策略，通過 Rollup 生成最終的發布版本](https://vitejs.dev/guide/why.html#why-bundle-for-production)。這是因為使用原生 ESM 導入模組可能導致「瀑布式」的網路請求，尤其在大型專案中，模組的多層 import 會增加請求次數，從而影響頁面載入速度，這種問題在大型專案的開發期間也會放大，導致較差的頁面載入速度。
 
-![native esm based dev server](./image/native-esm-based-dev-server.png)
+![native esm based dev server](/image/native-esm-based-dev-server.png)

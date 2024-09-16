@@ -24,7 +24,7 @@
 
 不僅是由於 Rspack 的建置速度快，更重要的是 Rspack 的建置機制不會導致頁面請求數過多，這是因為 Rspack 會把所有的來源文件打包成少數幾個文件，然後再送到瀏覽器，這樣就避開了瀏覽器載入的瓶頸。
 
-![page reload time compare for vite and rsbuild](./image/page-reload-time-vite-vs-rsbuild.png)
+![page reload time compare for vite and rsbuild](/image/page-reload-time-vite-vs-rsbuild.png)
 
 ### 2. 開發環境與生產環境一致
 
