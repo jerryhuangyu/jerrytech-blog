@@ -7,6 +7,10 @@ settings:
 importers:
 
   .:
+    dependencies:
+      vue-tweet:
+        specifier: ^2.3.1
+        version: 2.3.1(vue@3.5.5)
     devDependencies:
       vitepress:
         specifier: ^1.3.4
@@ -721,6 +725,11 @@ packages:
     peerDependenciesMeta:
       '@vue/composition-api':
         optional: true
+
+  vue-tweet@2.3.1:
+    resolution: {integrity: sha512-n8dKawDjEkNk4pkoiETGjB9s0OIT51i37zcgkrf2JnVx0NLGvLYesedVz3UHG7krAPGjGQ7pm1QZkTJC2oGs6w==}
+    peerDependencies:
+      vue: ^3.4.27
 
   vue@3.5.5:
     resolution: {integrity: sha512-ybC+xn67K4+df1yVeov4UjBGyVcXM0a1g7JVZr+pWVUX3xF6ntXU0wIjkTkduZBUIpxTlsftJSxz2kwhsT7dgA==}
@@ -1466,6 +1475,10 @@ snapshots:
       - universal-cookie
 
   vue-demi@0.14.10(vue@3.5.5):
+    dependencies:
+      vue: 3.5.5
+
+  vue-tweet@2.3.1(vue@3.5.5):
     dependencies:
       vue: 3.5.5
 
