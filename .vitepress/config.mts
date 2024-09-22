@@ -32,6 +32,15 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "React",
+        items: [
+          {
+            text: "React 19 and Suspense - A Drama in 3 Acts",
+            link: "react/react-19-and-suspense-a-drama-in-3-acts",
+          },
+        ],
+      },
     ],
     socialLinks: [{ icon: "github", link: "https://github.com/jerryhuangyu" }],
   },
