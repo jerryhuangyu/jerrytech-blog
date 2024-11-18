@@ -39,11 +39,6 @@ export default defineConfig({
 						text: "React 19 and Suspense - A Drama in 3 Acts",
 						link: "react/react-19-and-suspense-a-drama-in-3-acts",
 					},
-				],
-			},
-			{
-				text: "What to Know After React 19",
-				items: [
 					{
 						text: "You Should Avoid Fetch on Render",
 						link: "react/you-should-avoid-fetch-on-render",
