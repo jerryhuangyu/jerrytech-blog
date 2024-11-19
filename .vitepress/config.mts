@@ -48,4 +48,8 @@ export default defineConfig({
 		],
 		socialLinks: [{ icon: "github", link: "https://github.com/jerryhuangyu" }],
 	},
+	sitemap: {
+		hostname: "https://jerrytech-blog.vercel.app/",
+	},
+	lastUpdated: true,
 });
