@@ -1,4 +1,11 @@
+---
+readingTime: 8 min read
+words: 1447
+---
 # 為什麼從 Vite 遷移到 Rsbuild/Rspack
+<!-- READING-TIME:START -->
+>  🕛 reading time: 8 min read | 🔖 words: 1447
+<!-- READING-TIME:END -->
 
 ## 引言
 

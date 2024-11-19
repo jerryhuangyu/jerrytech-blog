@@ -1,4 +1,11 @@
+---
+readingTime: 4 min read
+words: 726
+---
 # 深入了解 Vite
+<!-- READING-TIME:START -->
+>  🕛 reading time: 4 min read | 🔖 words: 726
+<!-- READING-TIME:END -->
 
 ## 概述 Vite
 

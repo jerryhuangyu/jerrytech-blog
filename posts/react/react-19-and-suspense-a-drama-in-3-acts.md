@@ -1,8 +1,15 @@
+---
+readingTime: 16 min read
+words: 3061
+---
 <script setup>
 import Tweet from "vue-tweet";
 </script>
 
 # React 19 釋放候選版：Suspense 引發的三部曲
+<!-- READING-TIME:START -->
+>  🕛 reading time: 16 min read | 🔖 words: 3061
+<!-- READING-TIME:END -->
 
 > 本篇文章翻自 [React 19 and Suspense - A Drama in 3 Acts](https://tkdodo.eu/blog/react-19-and-suspense-a-drama-in-3-acts)  
 > 謝謝 [@TkDodo](https://github.com/tkdodo) 撰寫的優質系列文章，並且開放各方翻譯。如果有詞不達意或錯誤的地方歡迎指教 👋

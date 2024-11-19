@@ -4,7 +4,22 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
 	title: "Jerry Tech",
 	description: "Your Go-to Source for Insightful Content",
-	head: [["link", { rel: "shortcut icon", href: "/jerry-tech-logo.svg" }]],
+	head: [
+		[
+			"link",
+			{
+				rel: "shortcut icon",
+				href: "/jerry-tech-logo.svg",
+			},
+		],
+		[
+			"link",
+			{
+				rel: "stylesheet",
+				href: "https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css",
+			},
+		],
+	],
 	// https://vitepress.dev/reference/default-theme-config
 	themeConfig: {
 		logo: "/jerry-tech-logo.svg",
@@ -47,5 +62,13 @@ export default defineConfig({
 			},
 		],
 		socialLinks: [{ icon: "github", link: "https://github.com/jerryhuangyu" }],
+	},
+	srcDir: "posts",
+	sitemap: {
+		hostname: "https://jerrytech-blog.vercel.app/",
+	},
+	lastUpdated: true,
+	transformPageData: (pageData) => {
+		console.log(pageData);
 	},
 });
