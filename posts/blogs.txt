@@ -1,0 +1,9 @@
+{frontend-infra}
+
+frontend-infra/deep-dive-into-vite.md
+frontend-infra/migrate-from-vite-to-rsbuild.md
+
+{react}
+
+react/react-19-and-suspense-a-drama-in-3-acts.md
+react/you-should-avoid-fetch-on-render.md

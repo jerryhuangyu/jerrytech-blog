@@ -1,7 +1,16 @@
 ---
-description: Learn about the changes in React 19, why you should avoid Fetch on Render, and the benefits of Render as You Fetch. Understand the impact on Suspense behavior and optimize your resource fetching strategy for better performance and user experience.
+description: >-
+  Learn about the changes in React 19, why you should avoid Fetch on Render, and
+  the benefits of Render as You Fetch. Understand the impact on Suspense
+  behavior and optimize your resource fetching strategy for better performance
+  and user experience.
+readingTime: 6 min read
+words: 1138
 ---
 # What to Know After  React 19 - You Should Avoid Fetch on Render
+<!-- READING-TIME:START -->
+>  🕛 reading time: 6 min read | 🔖 words: 1138
+<!-- READING-TIME:END -->
 
 在 React 19 RC 發布後，Suspense 行為的改變引發了大量討論，焦點聚焦在 Fetch on Render 和 Render as You Fetch 之間的比較以及執行資源請求時機的最佳實踐。本文將詳細探討這些變化，並說明為何應該避免在渲染時進行資料請求。
 
